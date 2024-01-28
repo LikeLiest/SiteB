@@ -1,0 +1,153 @@
+.container {
+    max-width: 100%;
+    min-height: 100vh;
+
+    box-sizing: border-box;
+
+    font-family: 'Playfair Display', serif;
+
+    background-color: #ffffff;
+
+    overflow: hidden;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.material-symbols-outlined {
+    display: none;
+}
+
+
+#logo-png {
+    width: 80px;
+    height: 80px;
+}
+
+#logo-png:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.header {
+    color:white;
+
+    min-height: 50px;
+    margin-bottom: 240px;
+
+    background-color: #181717;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 32px;
+
+    font-size: 18px;
+
+}
+
+#header-logo-text {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#logo-png {
+}
+
+
+.center-up-part-header-logo {
+    padding: 0;
+}
+
+.left-up-part-header-info-list {
+    display: flex;
+    gap: 30px;
+
+}
+
+.right-up-part-header-img-list {
+    display: flex;
+    gap: 30px;
+}
+
+.left-up-part-header-info:hover {
+    cursor:pointer;
+
+    scale: 1.1;
+    transition: 0.3s ease-in-out;
+
+}
+
+.right-up-part-header-image:hover {
+    cursor:pointer;
+
+    scale: 1.1;
+    transition: 0.3s ease-in-out;
+}
+
+.sub-header {
+    min-height: 95vh;
+    min-width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 60px;
+
+    background-image: url("images/backgrounds/asia-culturecenter-8Vhl4KvlJE8-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sub-header-title {
+    font-size: 64px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.sub-header-sub-title {
+    max-width: 800px;
+
+    font-size: 18px;
+    line-height: 2;
+    font-style: italic;
+
+    opacity: 1;
+}
+
+.sub-header-button {
+
+    margin-top: 48px;
+
+    border: none;
+    border-radius: 12px;
+
+    background-color: #f8a100;
+    color:white;
+
+    font-size: 26px;
+
+    padding: 22px 34px;
+}
+
+.sub-header-button:hover {
+    cursor: pointer;
+    background-color: #d78a00;
+}
+
+.sub-header-button:active {
+    scale: 0.98;
+    transition: .5s;
+}
+

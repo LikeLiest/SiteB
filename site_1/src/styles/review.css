@@ -1,0 +1,58 @@
+.review-container {
+    background-color:rgb(243,243,243);
+    padding: 36px;
+
+    margin-top: 85px;
+}
+
+.review-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    gap: 64px;
+
+    text-align: center;
+
+    padding: 36px 120px;
+
+
+}
+
+#our-reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 32px;
+    font-weight: 500;
+
+    opacity: 0.9;
+
+    margin-bottom: 85px;
+}
+
+.review-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.review-text {
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.8;
+    font-style: italic;
+    line-height: 1.25;
+
+    margin-bottom: 16px;
+}
+
+.names-review {
+    opacity: 0.7;
+}
+
+.prof-review {
+    opacity: 0.65;
+    color: #2d2d2d;
+}

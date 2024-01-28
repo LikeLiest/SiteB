@@ -1,0 +1,44 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+
+    margin-bottom: 200px;
+}
+
+.our-contacts {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+
+    padding-bottom: 24px;
+
+}
+
+.contact-info {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 2;
+
+    gap: 32px;
+}
+
+.social-block {
+
+}
+
+.social {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+
+    padding-bottom: 24px;
+}
+
+.social-img {
+    max-width: 240px;
+    height: 24px;
+}

@@ -1,0 +1,51 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    gap: 30px;
+
+    margin-bottom: 200px;
+}
+
+.left-part-about {
+    max-width: 650px;
+    font-size: 20px;
+    text-align: left;
+}
+
+#about-our-company {
+    font-size: 38px;
+    font-weight: 600;
+
+    text-align: left;
+
+    margin-bottom: 30px;
+}
+
+#text-about-our-company {
+    font-size: 21px;
+    opacity: 0.85;
+    font-weight: 300;
+
+    line-height: 1.8;
+}
+
+.right-part-about {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+
+    gap: 50px;
+
+    margin-left: 108px;
+
+}
+
+.images {
+    width: 300px;
+    height: 300px;
+
+    border-radius: 4px;
+
+}

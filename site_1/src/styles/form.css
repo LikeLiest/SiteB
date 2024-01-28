@@ -1,0 +1,96 @@
+.form-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 32px;
+    padding: 96px 0;
+
+    min-height: 50vh;
+
+    text-align: center;
+
+    background-image: url("images/backgrounds/peter-gargiulo-cGNCepznaV8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    color:white;
+
+
+    margin-bottom: 100px;
+}
+
+.form-title {
+    font-size: 32px;
+    line-height: 1.5;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.form-text {
+    font-size: 18px;
+    font-weight: 300;
+    opacity: 0.8;
+    line-height: 1.65;
+
+    max-width: 500px;
+}
+
+.form-buttons-group {
+    margin-top: 120px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    gap: 120px;
+}
+
+.form-button {
+    color:white;
+    font-size: 21px;
+
+    padding: 18px 96px;
+
+    /*opacity: .5;*/
+
+    background-color: rgba(105, 105, 105, 0);
+    border: 1px solid #dadada;
+    border-radius: 8px;
+}
+
+.form-button:hover {
+    cursor: pointer;
+}
+
+.form-button-send {
+
+    border: none;
+    border-radius: 12px;
+
+    background-color: #f8a100;
+    color:white;
+
+    font-size: 26px;
+
+    padding: 22px 42px;
+}
+
+.form-button-send:hover {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-button-send:active {
+    background-color: rgba(232, 156, 19, 0.9);
+}
+
+/*Photo by <a href="https://unsplash.com/@asiaculturecenter?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">ASIA CULTURECENTER</a> on <a href="https://unsplash.com/photos/blue-and-white-sectional-couch-8Vhl4KvlJE8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/
+/*Photo by <a href="https://unsplash.com/@lemshirinz?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Leman</a> on <a href="https://unsplash.com/photos/green-leafed-plant-MbgwSJwHDu4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/
+/*Photo by <a href="https://unsplash.com/@kovah?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kevin Woblick</a> on <a href="https://unsplash.com/photos/a-view-of-a-building-through-a-window-oM9Ygakc8tI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/
+/*Photo by <a href="https://unsplash.com/@grndezyns?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Peter Gargiulo</a> on <a href="https://unsplash.com/photos/a-black-and-white-photo-of-a-dark-background-cGNCepznaV8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*/

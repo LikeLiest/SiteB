@@ -1,0 +1,96 @@
+.advant-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 200px 0;
+}
+
+.advant-container-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+
+    gap: 8px;
+}
+
+#advant-title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.75;
+
+    opacity: 0.9
+}
+
+#advant-subtitle {
+    font-size: 18px;
+    line-height: 1.5;
+
+    opacity: 0.85;
+
+    margin-bottom: 50px;
+}
+
+.our-advantages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.advant-block-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 82px;
+}
+
+
+.advant-block-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 72px;
+
+    gap: 32px;
+}
+
+.advant-full-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#advant-subtitle-block {
+    margin-right: auto;
+    line-height: 1.2;
+    font-size: 21px;
+    opacity: 0.9;
+    font-weight: 400;
+
+    max-width: 500px;
+}
+
+#advant-text {
+    font-size: 16px;
+    opacity: 0.85;
+    line-height: 1.5;
+    font-weight: 300;
+
+    max-width: 500px;
+}
+
+.checkmark {
+    background-color: #f8ad25;
+    width: 52px;
+    height: 52px;
+
+    border-radius: 50%;
+}
